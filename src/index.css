@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* สไตล์พื้นฐาน */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* สไตล์โหมดมืด */
+  .dark body {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* ตัวอย่าง input field */
+  input {
+    background-color: inherit;
+    color: inherit;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .dark input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+  }
+  
